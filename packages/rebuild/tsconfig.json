@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "jsx": "react-jsx",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+    "isolatedModules": false,
+    "esModuleInterop": false,
+    "declaration": true, // 生成定义文件
+    "declarationMap": false, // 生成定义sourceMap
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
